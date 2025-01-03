@@ -2,7 +2,7 @@ import placeholder from "../../assets/images/placeholder.jpg";
 
 function Slider() {
   return (
-    <div className=" relative h-screen w-full bg-gray-300">
+    <div className=" relative h-screen w-full ">
       <img
         src={placeholder}
         alt="placeholder"
