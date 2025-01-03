@@ -21,21 +21,18 @@ function Navbar() {
         "w-full md:min-h-[4.6rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#fafafa] to-[#ffffff] "
       }
     >
-      <div className="hidden h-full md:flex justify-center items-center gap-2">
-        <div className="h-[3.5rem] aspect-square ">
+      <div className=" h-full flex justify-center items-center gap-1 md:gap-2">
+        <div className="h-[2rem] md:h-[3.5rem] aspect-square ">
           <img src={logo} alt="logo" className="w-full h-full object-cover" />
         </div>
         <div className=" text-center flex flex-col justify-center items-center ">
-          <h1 className="leading-6 text-[#012b4a] uppercase text-[1.6rem] font-bruno font-medium tracking-[0.3rem] mt-2">
+          <h1 className="leading-6 text-[#012b4a] uppercase text-[1.3rem] md:text-[1.6rem] font-bruno font-medium tracking-[0.3rem] mt-1 md:mt-2">
             TAXISM
           </h1>
-          <h6 className="text-[#f86c03] text-[0.4rem] font-bold uppercase tracking-[0.18rem]">
+          <h6 className="text-[#f86c03] text-[0.2rem] md:text-[0.4rem] font-bold uppercase tracking-[0.18rem]">
             Corporate consultants
           </h6>
         </div>
-      </div>
-      <div className="h-[3rem] aspect-square md:hidden">
-        <img src={logo2} alt="logo2" className="w-full h-full object-cover" />
       </div>
 
       <div className="md:hidden">
