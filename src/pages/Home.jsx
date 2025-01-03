@@ -1,16 +1,18 @@
 import Slider from "../components/Home/Slider";
 import Navbar from "../components/Navbar";
-
+import img from "../assets/images/accounting.svg";
 function Home() {
   return (
     <div className="w-full min-h-screen">
       <Navbar />
       <Slider />
 
-      <div className="w-full min-h-screen">
-        <div>
-          <h1>About us</h1>
-          <p>
+      <div className="w-full min-h-screen flex flex-col-reverse lg:flex-row justify-evenly items-center gap-5  p-5 lg:p-20">
+        <div className="w-full h-full flex flex-col justify-center items-center gap-7 max-w-[500px]">
+          <h1 className="text-4xl font-bold uppercase text-[#00467a] font-montserrat">
+            About us
+          </h1>
+          <p className="text-gray-500 ">
             Taxism Corporate Consultants, our team of expert Accountants, have
             developed extensive knowledge in all tax and accounting-related
             matters. We understand each client is unique, and we value their
@@ -31,7 +33,9 @@ function Home() {
             and assurance services, as well as bank assignments.
           </p>
         </div>
-        <div></div>
+        <div className="w-full h-full flex justify-center items-center max-w-[500px]">
+          <img src={img} alt="img" className="w-full h-full object-cover" />
+        </div>
       </div>
       <div className="w-ful h-[500vh]"></div>
     </div>
