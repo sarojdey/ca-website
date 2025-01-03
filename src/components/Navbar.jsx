@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div
       className={
-        "w-full md:min-h-[4.6rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#fafafa] to-[#ffffff] "
+        "w-full min-h-[4.6rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#fafafa] to-[#ffffff] "
       }
     >
       <div className=" h-full flex justify-center items-center gap-1 md:gap-2">
