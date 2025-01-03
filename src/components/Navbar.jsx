@@ -29,7 +29,7 @@ function Navbar() {
           <h1 className="leading-6 text-[#012b4a] uppercase text-[1.3rem] md:text-[1.6rem] font-bruno font-medium tracking-[0.3rem] mt-1 md:mt-2">
             TAXISM
           </h1>
-          <h6 className="text-[#f86c03] text-[0.2rem] md:text-[0.4rem] font-bold uppercase tracking-[0.18rem]">
+          <h6 className="text-[#f86c03] text-[0.3rem] md:text-[0.4rem] font-bold uppercase tracking-[0.18rem]">
             Corporate consultants
           </h6>
         </div>
