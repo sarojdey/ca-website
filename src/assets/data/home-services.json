@@ -2,49 +2,49 @@
   {
     "id": 1,
     "service": "Income Tax",
-    "icon": "income_tax_icon.png",
+    "icon": "income_tax_icon",
     "subtext": "Expert assistance in filing and managing income tax returns for individuals and businesses."
   },
   {
     "id": 2,
     "service": "GST",
-    "icon": "gst_icon.png",
+    "icon": "gst_icon",
     "subtext": "Comprehensive solutions for GST registration, compliance, and return filing."
   },
   {
     "id": 3,
     "service": "ROC",
-    "icon": "roc_icon.png",
+    "icon": "roc_icon",
     "subtext": "Streamlined services for managing ROC compliance and filings for your business."
   },
   {
     "id": 4,
     "service": "Registration",
-    "icon": "registration_icon.png",
+    "icon": "registration_icon",
     "subtext": "Hassle-free registration services for companies, startups, and businesses."
   },
   {
     "id": 5,
     "service": "E-Returns",
-    "icon": "e_returns_icon.png",
+    "icon": "e_returns_icon",
     "subtext": "Simplified e-return filing services for tax and regulatory compliance."
   },
   {
     "id": 6,
     "service": "Consulting",
-    "icon": "consulting_icon.png",
+    "icon": "consulting_icon",
     "subtext": "Professional consulting services for strategic financial and business planning."
   },
   {
     "id": 7,
     "service": "Individual Finance",
-    "icon": "individual_finance_icon.png",
+    "icon": "individual_finance_icon",
     "subtext": "Personalized financial planning and advisory services for individuals."
   },
   {
     "id": 8,
     "service": "Corporate Finance",
-    "icon": "corporate_finance_icon.png",
+    "icon": "corporate_finance_icon",
     "subtext": "Tailored corporate finance solutions for businesses to optimize their financial operations."
   }
 ]

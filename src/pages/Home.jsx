@@ -2,8 +2,30 @@ import Slider from "../components/Home/Slider";
 import Navbar from "../components/Navbar";
 import img from "../assets/images/accounting.svg";
 import data from "../assets/data/home-services.json";
+import {
+  MdMoney,
+  MdGavel,
+  MdBusinessCenter,
+  MdAppRegistration,
+  MdOutlineFileUpload,
+  MdSupportAgent,
+  MdPerson,
+  MdCorporateFare,
+} from "react-icons/md";
 
-import { MdCorporateFare } from "react-icons/md";
+const iconMapping = {
+  income_tax_icon: <MdMoney className="text-5xl text-[#00467a]" />,
+  gst_icon: <MdGavel className="text-5xl text-[#00467a]" />,
+  roc_icon: <MdBusinessCenter className="text-5xl text-[#00467a]" />,
+  registration_icon: <MdAppRegistration className="text-5xl text-[#00467a]" />,
+  e_returns_icon: <MdOutlineFileUpload className="text-5xl text-[#00467a]" />,
+  consulting_icon: <MdSupportAgent className="text-5xl text-[#00467a]" />,
+  individual_finance_icon: <MdPerson className="text-5xl text-[#00467a]" />,
+  corporate_finance_icon: (
+    <MdCorporateFare className="text-5xl text-[#00467a]" />
+  ),
+};
+
 function Home() {
   return (
     <div className="w-full min-h-screen">
@@ -51,7 +73,8 @@ function Home() {
               >
                 <div className="flex flex-col items-center justify-center transition-all duration-300 group-hover:gap-5 gap-0">
                   <div className="w-[100px] aspect-square rounded-full bg-blue-100 flex justify-center items-center">
-                    <MdCorporateFare className="text-5xl text-[#00467a]" />
+                    {/* <MdCorporateFare className="text-5xl text-[#00467a]" /> */}
+                    {iconMapping[section.icon]}
                   </div>
                   <h1 className="w-full text-xl font-bold text-[#00467a] font-montserrat text-center mt-2">
                     {section.service}
