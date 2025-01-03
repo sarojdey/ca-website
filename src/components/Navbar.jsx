@@ -22,7 +22,7 @@ function Navbar() {
       }
     >
       <div className=" h-full flex justify-center items-center gap-1 md:gap-2">
-        <div className="h-[2rem] md:h-[3.5rem] aspect-square ">
+        <div className="h-[2.2rem] md:h-[3.5rem] aspect-square ">
           <img src={logo} alt="logo" className="w-full h-full object-cover" />
         </div>
         <div className=" text-center flex flex-col justify-center items-center ">
