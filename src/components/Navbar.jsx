@@ -1,6 +1,5 @@
-import logo from "../assets/images/taxismshort.png";
 import logo2 from "../assets/images/taxism.png";
-import { useEffect, useState } from "react";
+import logo from "../assets/images/taxismshort.png";
 function Navbar() {
   //use if need to change color on scroll
 
