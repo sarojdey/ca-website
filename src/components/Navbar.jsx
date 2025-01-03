@@ -1,8 +1,30 @@
 import logo from "../assets/images/taxismshort.png";
 import logo2 from "../assets/images/taxism.png";
+import { useEffect, useState } from "react";
 function Navbar() {
+  //use if need to change color on scroll
+
+  // const [isScrolled, setIsScrolled] = useState(false);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.scrollY;
+  //     setIsScrolled(scrollTop > window.innerHeight * 0.8); // 80vh
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+
   return (
-    <div className="w-full md:min-h-[5rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#ededed] to-[#ffffff] ">
+    <div
+      className={
+        "w-full md:min-h-[4.6rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#fafafa] to-[#ffffff] "
+      }
+    >
       <div className="hidden h-full md:flex justify-center items-center gap-2">
         <div className="h-[3.5rem] aspect-square ">
           <img src={logo} alt="logo" className="w-full h-full object-cover" />
