@@ -2,7 +2,7 @@ import logo from "../assets/images/taxismshort.png";
 import logo2 from "../assets/images/taxism.png";
 function Navbar() {
   return (
-    <div className="w-full md:min-h-[5rem] border-b border-[#0000001a] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-white ">
+    <div className="w-full md:min-h-[5rem] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-gradient-to-b from-[#ededed] to-[#ffffff] ">
       <div className="hidden h-full md:flex justify-center items-center gap-2">
         <div className="h-[3.5rem] aspect-square ">
           <img src={logo} alt="logo" className="w-full h-full object-cover" />
