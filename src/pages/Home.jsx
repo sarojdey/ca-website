@@ -56,7 +56,7 @@ function Home() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-5 p-5 lg:p-20">
-        <h1 className="text-4xl font-bold uppercase text-[#00467a] font-montserrat text-center">
+        <h1 className="text-4xl font-bold uppercase text-[#00467a] font-montserrat text-center mt-20 md:mt-5">
           Our Services
         </h1>
         <p className="text-gray-500 text-center max-w-[500px]">

@@ -1,9 +1,9 @@
 import logo from "../assets/images/taxismshort.png";
-
+import logo2 from "../assets/images/taxism.png";
 function Navbar() {
   return (
-    <div className="w-full min-h-[5rem] border-b border-[#0000001a] py-2 px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-white ">
-      <div className="h-full flex justify-center items-center gap-2">
+    <div className="w-full md:min-h-[5rem] border-b border-[#0000001a] py-2 px-4 md:px-10 lg:px-20 flex items-center justify-between shadow-sm fixed top-0 left-0 z-50 bg-white ">
+      <div className="hidden h-full md:flex justify-center items-center gap-2">
         <div className="h-[3.5rem] aspect-square ">
           <img src={logo} alt="logo" className="w-full h-full object-cover" />
         </div>
@@ -16,7 +16,10 @@ function Navbar() {
           </h6>
         </div>
       </div>
-      <ul className="h-full flex items-center gap-10 font-semibold text-gray-700  justify-betweenm text-lg">
+      <div className="h-[3rem] aspect-square md:hidden">
+        <img src={logo2} alt="logo2" className="w-full h-full object-cover" />
+      </div>
+      <ul className="hidden h-full md:flex items-center gap-10 font-semibold text-gray-700  justify-betweenm text-lg">
         <li className="text-[#015ea0]">Home</li>
         <li>About</li>
         <li>Services</li>
