@@ -68,7 +68,7 @@ function Home() {
           {data.map((section) => {
             return (
               <div
-                className="min-h-[300px] w-[250px] bg-blue-50 m-1 rounded-lg p-5 flex flex-col justify-center items-center gap-5 group cursor-pointer"
+                className="min-h-[300px] w-[250px] bg-blue-50 shadow-md m-1 rounded-lg p-5 flex flex-col justify-center items-center gap-5 group cursor-pointer"
                 key={section.id}
               >
                 <div className="flex flex-col items-center justify-center transition-all duration-300 group-hover:gap-5 gap-0">
