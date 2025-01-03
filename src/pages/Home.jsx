@@ -32,7 +32,7 @@ function Home() {
       <Navbar />
       <Slider />
 
-      <div className="w-full min-h-screen flex flex-col-reverse lg:flex-row justify-evenly items-center gap-5  p-5 lg:p-20">
+      <div className="mt-20 md:mt-0 w-full min-h-screen flex flex-col-reverse lg:flex-row justify-evenly items-center gap-5  p-5 lg:p-20">
         <div className="w-full h-full flex flex-col justify-center items-center gap-7 max-w-[500px]">
           <h1 className="text-4xl font-bold uppercase text-[#00467a] font-montserrat">
             About us
